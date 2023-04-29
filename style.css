@@ -167,11 +167,12 @@ header > div > svg > text {
 }
 
 .card-slider-prev {
-  left: 20px;
+  left: 10px;
+  
 }
 
 .card-slider-next {
-  right: 20px;
+  right: 10px;
 }
 
 
@@ -212,18 +213,23 @@ header > div > svg > text {
   .left-materials, .right-materials{
     margin-right: 60px;
   }
-}
-
-@media screen and (min-width: 750px){
-
+  .card-slider-prev {
+    left: 50px;
+  }
+  
+  .card-slider-next {
+    right: 50px;
+  }
   .destinations {
-    max-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 100px;
+   
+    
     }
 }
-@media screen and (min-width: 800px){
 
-  .destinations {
-    max-width: 800px;
-    }
-}
+
+
  

@@ -150,6 +150,7 @@ header > div > svg > text {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+ 
   
 }
 
@@ -166,11 +167,11 @@ header > div > svg > text {
 }
 
 .card-slider-prev {
-  left: 50px;
+  left: 20px;
 }
 
 .card-slider-next {
-  right: 50px;
+  right: 20px;
 }
 
 

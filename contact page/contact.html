@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="../navigation.css">
+  <link rel="stylesheet" href="../footer.css">
+  <title>Contact us</title>
+</head>
+<body>
+  <header>
+		<nav>
+			<input type="checkbox" name="" id="" class="check">
+  <ul class="menu-items">
+    <li><a href="../index.html" >Home</a></li>
+    <li><a href="#" >About</a></li>
+    <li><a href="#" >Destination</a></li>
+    <li><a href="./contact.html" >Contact</a></li>
+  </ul>
+  <div class="ham-menu">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+  </div>
+		</nav>
+	</header>
+
+  <h1>Contact Us</h1>
+	<p>We'd love to hear from you! Please fill out the form below to get in touch.</p>
+	<form action="submit_contact_form.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name (more than 5 characters)" required minlength="6">
+
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" placeholder="Enter the subject (more than 15 characters)" required minlength="16">
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" placeholder="Enter your message (more than 25 characters)" required minlength="26"></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
+	<footer>
+		
+		<div class="footer-container">
+			<div class="left-footer">
+				<div class="left-materials">
+					<a href="#" class="footer-title">TRAVEL BLOGS</a>
+					<a href="#">Europe Travel Guide</a>
+					<a href="#">Asia Travel Guide</a>
+				</div>
+				<div class="left-materials">
+					<a href="#" class="footer-title">ABOUT US</a>
+					<a href="#">Our Story</a>
+					<a href="#">Work with us</a>
+				</div>
+				<div class="left-materials">
+					<a href="#" class="footer-title">CONTAC US</a>
+					<a href="#">logo</a>
+					<a href="#">logo</a>
+				</div>
+
+			</div>
+			<div class="right-footer">
+				<div class="right-footer">
+					<div class="right-materials">
+						<a href="" class="footer-title">TIPS AND TRICKS</a>
+						<a href="#">Europe Travel Guide</a>
+						<a href="#">Asia Travel Guide</a>
+					</div>
+					<div class="right-materials">
+						<a href="#" class="footer-title">SHOP</a>
+						<a href="#">Our Story</a>
+						<a href="#">Work with us</a>
+					</div>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	</footer>
+</body>
+</html>

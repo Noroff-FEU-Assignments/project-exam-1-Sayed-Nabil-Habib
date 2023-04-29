@@ -1,0 +1,210 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+ 
+}
+
+header {
+	
+  background-image: url("./Materials/jason-cooper-XEhchWQuWyM-unsplash_2_18.jpeg");
+  background-repeat: no-repeat;
+ 
+}
+header > div > svg{
+ display: flex;
+ margin: auto;
+ max-width: 300px;
+}
+header > div > svg > text {
+  font-size: 12px;
+}
+.header-text{
+  color: white;
+  
+}
+
+ section > ul {
+  display: flex;
+ }
+
+ .posts{
+ 
+  margin: auto;
+  margin: 0 100px 0 100px;
+ }
+
+.destinations {
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 20px;
+ margin-bottom: 100px;
+
+ 
+ }
+ 
+ .destinations h2 {
+ font-size: 2rem;
+ color:black;
+ font-weight: bold;
+ margin-bottom: 20px;
+ }
+ 
+ .destinations .slider {
+ display: flex;
+ overflow-x: scroll;
+ scroll-snap-type: x mandatory;
+ display: flex;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+ }
+ 
+ .destinations .slide {
+ flex: 0 0 auto;
+ margin-right: 20px;
+ scroll-snap-align: center;
+ background-color:bisque;
+ width: 300px;
+ height: 380px;
+ border-radius: 10px;
+ margin-top: 20px;
+ }
+ 
+ .destinations .slide:last-of-type {
+ margin-right: 0;
+ }
+ 
+ .destinations .slide img {
+  width: 240px;
+  height: 180px;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+  box-shadow: 0px 4px 6px 2px rgba(186, 150, 150, 0.775);
+  object-fit: cover;
+  display: block;
+ }
+ 
+ .destinations .slide h3 {
+ font-size: 1.5rem;
+ font-weight: bold;
+ margin-top: 10px;
+ }
+ .read-more{
+  text-decoration: underline;
+  color: black;
+  margin: 30px;
+  cursor: pointer;
+  
+ }
+ 
+ .destinations .btn {
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background:bisque;
+  padding: 20px;
+  font-size: 16px;
+}
+.destinations .btn:hover{
+  box-shadow: 0px 4px 6px 2px rgba(186, 150, 150, 0.775);
+  transition: 0.5s;
+}
+
+
+.slide h4, p{
+  margin: 0 25px 0 25px;
+  line-height: 22px;
+  
+}
+.slide p{
+  font-size: 12px;
+}
+.slide a{
+  text-decoration: none;
+}
+
+
+
+.card-slider-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.card-slider-prev,
+.card-slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.card-slider-prev {
+  left: 50px;
+}
+
+.card-slider-next {
+  right: 50px;
+}
+
+
+
+@media screen and (min-width: 700px){
+  
+  header > h1 {
+    margin-right: 16px;
+    display: block;
+  }
+  
+
+  header {
+    
+    background-image: url("./Materials/jason-cooper-XEhchWQuWyM-unsplash_2_18.jpeg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .footer-container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 200;
+  }
+  .left-footer, .right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .left-materials, .right-materials{
+    margin-right: 60px;
+  }
+}

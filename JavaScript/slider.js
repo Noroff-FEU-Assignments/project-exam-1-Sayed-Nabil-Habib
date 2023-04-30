@@ -17,4 +17,3 @@ prevBtn.addEventListener("click", () => {
 
 
 });
-console.log(works)

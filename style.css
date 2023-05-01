@@ -134,13 +134,16 @@ header > div > svg > text {
 }
 
 
-.slide h4, p{
+.title{
   margin: 0 25px 0 25px;
   line-height: 22px;
   
 }
 .slide p{
   font-size: 12px;
+  margin: 0 25px 0 25px;
+  line-height: 22px;
+  color: black;
 }
 .slide a{
   text-decoration: none;

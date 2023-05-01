@@ -1,4 +1,4 @@
-const apiBase = "http://www.sayed.codes";
+const apiBase = "https://www.sayed.codes";
 const pagePosts = "/wp-json/wp/v2/posts/";
 const fullPageUrl = apiBase + pagePosts;
 

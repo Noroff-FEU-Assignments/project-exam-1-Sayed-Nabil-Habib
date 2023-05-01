@@ -2,7 +2,7 @@ const apiBase = "http://www.sayed.codes";
 const pagePosts = "/wp-json/wp/v2/posts/";
 const fullPageUrl = apiBase + pagePosts;
 
-const resultContainer = document.querySelector(".posts")
+const resultContainer = document.querySelector(".destinations")
 
 
 

@@ -1,0 +1,86 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+ 
+}
+main{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.slider{
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.slide{
+  flex: 0 0 auto;
+ margin-right: 20px;
+ scroll-snap-align: center;
+ background-color:bisque;
+ width: 300px;
+ height:410px;
+ border-radius: 10px;
+ margin-top: 20px;
+ padding: 10px;
+}
+.posts-images{
+  width: 240px;
+  height: 180px;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  box-shadow: 0px 4px 6px 2px rgba(186, 150, 150, 0.775);
+  object-fit: cover;
+  display: block;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: aqua;
+  text-decoration: none;
+
+}
+.slide p{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 12px;
+  margin: 0 25px 0 25px;
+  line-height: 22px;
+  color: black;
+
+}
+@media screen and (min-width: 700px){
+  .slider{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+
+}

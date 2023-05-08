@@ -30,10 +30,14 @@ form {
 .form-error{
 	color: red;
 	display: none;
+	margin-top:2px;
+	font-weight: 300;
+
 }
 .contact-title{
 font-weight: 200;
 font-size: 20px;
+display: block;
 
 }
 .contact-success-message{
@@ -56,7 +60,7 @@ input[type="text"], input[type="email"], textarea {
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
-	margin-bottom: 20px;
+	
 	font-size: 16px;
 }
 
@@ -72,6 +76,7 @@ button[type="submit"] {
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
+	margin-top: 20px;
 }
 
 button[type="submit"]:hover {

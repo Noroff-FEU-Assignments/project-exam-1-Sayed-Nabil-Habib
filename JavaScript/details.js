@@ -28,7 +28,8 @@ async function fetchDetails(){
       `<div class="result">
       <h5 class="title">  ${title}</h5>   
       <img src="${imageUrl}" alt="${title}" class="post-image">
-        <div class="content">${content}</div>  
+        <div class="content">${content}</div> 
+        <a href="../index.html" class="btn">To Home Page</a> 
      </div>`;
   
        

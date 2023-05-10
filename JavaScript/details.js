@@ -6,7 +6,7 @@ const params = new URLSearchParams(queryString);
 
 const postId = params.get("id");
 
-const url = `http://www.sayed.codes/wp-json/wp/v2/posts/${postId}`;
+const url = `https://www.sayed.codes/wp-json/wp/v2/posts/${postId}`;
 
 
 

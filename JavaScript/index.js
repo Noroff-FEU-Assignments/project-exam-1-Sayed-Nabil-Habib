@@ -20,19 +20,17 @@ async function getPosts(){
 
     resultContainer.innerHTML += 
     `
-  <div class="destinations">
-    <div class="slider">
-      <div class="slide">
-        <a href="#">
+  
+        
           <img class="posts-images" src="${mediaData.source_url}" alt="${data[i].title.rendered}">
             <h5 class="title">  ${data[i].title.rendered}</h5>
             <p class="content">  ${data[i].excerpt.rendered}</p>
+            <a href="../htmls/details.html">
             <h4 class="read-more">Read more</h4>
             </a>
-            </div>
-               </div>
+          
                 
-</div>`
+`
   }
   
    console.log(data)

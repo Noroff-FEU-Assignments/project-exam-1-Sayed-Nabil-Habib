@@ -23,7 +23,8 @@ async function getPosts(){
   <div class="destinations">
     <div class="slider">
       <div class="slide">
-        <a href="#">
+      <a href="../htmls/details.html?id=${data[i].id}">
+
           <img class="posts-images" src="${mediaData.source_url}" alt="${data[i].title.rendered}">
             <h5 class="title">  ${data[i].title.rendered}</h5>
             <p class="content">  ${data[i].excerpt.rendered}</p>

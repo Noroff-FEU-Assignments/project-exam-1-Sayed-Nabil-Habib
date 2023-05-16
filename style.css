@@ -33,7 +33,7 @@ header {
 
 
 header > div > svg{
-  display: block;
+
   display: flex;
   flex-direction: row;
   justify-content: center;

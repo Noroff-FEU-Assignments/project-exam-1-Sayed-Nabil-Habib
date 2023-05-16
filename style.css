@@ -22,7 +22,7 @@ body {
 
 header {
 	
-  background-image: url("./Materials/jason-cooper-XEhchWQuWyM-unsplash_2_18.jpeg");
+  background-image: url("./Materials/dikaseva-8o4W9LZv6eo-unsplash_32.jpeg");
   background-repeat: no-repeat;
  
 }
@@ -187,8 +187,6 @@ header > div > svg > text {
   
 
   header {
-    
-    background-image: url("./Materials/jason-cooper-XEhchWQuWyM-unsplash_2_18.jpeg");
     width: 100%;
     background-size: cover;
     background-position: center;

@@ -14,7 +14,7 @@ async function getPosts() {
     const response = await fetch(fullPageUrl);
     const data = await response.json();
 
-    // resultContainer.innerHTML = "";
+    resultContainer.innerHTML = "";
 
     for (let i = 0; i < data.length; i++) {
       const mediaResponse = await fetch(data[i]._links["wp:featuredmedia"][0].href);

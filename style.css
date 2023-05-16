@@ -27,13 +27,19 @@ header {
   width: 100%;
   background-image: url(".//Materials/marek-okon-sTja0Dx9pyk-unsplash.jpg");
   background-repeat: no-repeat;
-  height: 500px;
+  
  
 }
 
 
 header > div > svg{
+<<<<<<< HEAD
   display: flex;
+=======
+
+  display: flex;
+  flex-direction: row;
+>>>>>>> parent of b51bc59 (Update style.css)
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -175,6 +181,7 @@ header > div > svg > text {
   background: transparent;
   font-size: 34px;
   cursor: pointer;
+  z-index: 98;
 }
 
 .card-slider-prev {

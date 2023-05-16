@@ -107,6 +107,7 @@ main{
   background:bisque;
   padding: 20px;
   font-size: 16px;
+  z-index: 95;
  }
 
 .show_more:hover{

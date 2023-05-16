@@ -21,8 +21,10 @@ body {
 }
 main{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: auto;
+  
 }
 .slider{
   display: flex;
@@ -30,6 +32,7 @@ main{
   align-content: center;
   margin: auto;
   margin-top: 50px;
+ 
 }
 .slide{
  flex: 0 0 auto;
@@ -80,10 +83,7 @@ main{
   cursor: pointer;
   
  }
- main{
-  display: flex;
-  flex-direction: column;
- }
+
  .button-container{
   display: flex;
   flex-direction: row;

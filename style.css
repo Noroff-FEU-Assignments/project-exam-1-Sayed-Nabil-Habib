@@ -21,9 +21,13 @@ body {
 }
 
 header {
-	
-  background-image: url("./Materials/dikaseva-8o4W9LZv6eo-unsplash_32.jpeg");
+	width: 100%;
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  background-image: url(".//Materials/marek-okon-sTja0Dx9pyk-unsplash.jpg");
   background-repeat: no-repeat;
+  height: 500px;
  
 }
 header > div > svg{
@@ -54,11 +58,12 @@ header > div > svg > text {
  margin: 0 auto;
  padding: 20px;
  margin-bottom: 100px;
- 
 
- 
  }
- 
+ .header-text{
+  font-weight: 200;
+  font-style:italic;
+ }
 
  
  .destinations .slider {
@@ -189,7 +194,7 @@ header > div > svg > text {
   header {
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     width: 100%;
   }
   .destinations {

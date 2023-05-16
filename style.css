@@ -31,13 +31,15 @@ header {
  
 }
 
-
-header > div > svg{
-
+header > div {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+ 
+}
+header > div > svg{
+
+  
   margin: auto;
   max-width: 300px;
   }

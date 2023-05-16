@@ -30,9 +30,7 @@ header {
   height: 500px;
  
 }
-header > div{
 
-}
 
 header > div > svg{
   display: flex;
@@ -46,12 +44,7 @@ header > div > svg > text {
 }
 .header-text{
   color: white;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 300px;
+ 
   
 }
 

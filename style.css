@@ -38,8 +38,9 @@ header > div {
  
 }
 header > div > svg{
-
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   max-width: 300px;
   }

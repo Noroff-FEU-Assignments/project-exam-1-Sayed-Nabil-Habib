@@ -30,13 +30,19 @@ header {
   height: 500px;
  
 }
-header > div > svg{
-display: block;
-
-
- margin: auto;
- max-width: 300px;
+header > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Assuming you want the SVG to take up the full height of the header */
 }
+
+header > div > svg {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
 header > div > svg > text {
   font-size: 12px;
 }

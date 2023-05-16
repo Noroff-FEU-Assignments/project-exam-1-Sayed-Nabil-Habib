@@ -81,6 +81,10 @@ flex: 0 0 auto;
   cursor: pointer;
   
  }
+ main{
+  display: flex;
+  flex-direction: column;
+ }
 @media screen and (min-width: 700px){
   .slider{
     display: flex;

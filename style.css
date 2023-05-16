@@ -167,7 +167,7 @@ header > div > svg > text {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
- 
+  z-index: 100;
   
 }
 
@@ -176,21 +176,26 @@ header > div > svg > text {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  border: none;
+  width: 50px;
+  height: 50px;
+  border:none;
+  border-radius: 50%;
   outline: none;
-  background: transparent;
+  background: rgb(0, 0, 0);
   font-size: 34px;
   cursor: pointer;
-  z-index: 98;
+ 
 }
 
 .card-slider-prev {
   left: 10px;
+  color: white;
   
 }
 
 .card-slider-next {
   right: 10px;
+  color: white;
 }
 
 

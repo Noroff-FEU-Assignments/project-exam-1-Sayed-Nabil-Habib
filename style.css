@@ -31,7 +31,9 @@ header {
  
 }
 header > div > svg{
- display: flex;
+display: block;
+
+
  margin: auto;
  max-width: 300px;
 }

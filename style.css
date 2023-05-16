@@ -34,11 +34,11 @@ header > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Assuming you want the SVG to take up the full height of the header */
+  height: 50vh;
 }
 
 header > div > svg {
-  display: block;
+  
   max-width: 300px;
   margin: auto;
 }

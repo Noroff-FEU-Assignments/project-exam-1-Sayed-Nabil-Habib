@@ -34,7 +34,7 @@ header > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 50vh;
 }
 
 header > div > svg {
@@ -204,6 +204,9 @@ header > div > svg > text {
     background-size: cover;
     background-position:center;
     width: 100%;
+  }
+  header > div {
+    height: auto;
   }
   .destinations {
     max-width: 600px;

@@ -14,7 +14,8 @@ body {
 	line-height: 1.5;
 	color: #333;
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(213, 213, 213);
   
  
 }
@@ -23,10 +24,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(22, 82, 135);
+  color: black;
+  
   max-width: 800px;
-  padding:10px 50px 0 50px;
-  margin: 80px auto;
+  padding:10px 20px 10px 20px;
+  margin: 20px auto;
   top: 40px;
 }
 
@@ -39,8 +41,9 @@ body {
   justify-content: center;
 }
 .content, .title{
-  margin:0 20px 0 20px;
+  margin:0 20px 20px 20px;
 }
+
 .post-image{
   
   max-height: 500px;
@@ -72,11 +75,6 @@ body {
   height: auto;
   display: none;
 }
-.post-image{
-
-}
-
-
 .overlay {
   position: fixed;
   top: 0;

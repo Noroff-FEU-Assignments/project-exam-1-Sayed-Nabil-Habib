@@ -30,8 +30,9 @@ async function fetchDetails(){
       resultContainer.innerHTML += 
       `<div class="result">
       <h5 class="title">  ${title}</h5>   
-      <img src="${featuredImageUrl}" alt="${title}" class="post-image clickable">
+      
         <div class="content">${content}</div> 
+        <img src="${featuredImageUrl}" alt="${title}" class="post-image clickable">
         <a href="../index.html" class="btn">To Home Page</a> 
      </div>`;
 

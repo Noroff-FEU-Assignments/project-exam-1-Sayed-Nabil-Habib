@@ -31,8 +31,9 @@ body {
 }
 
 .title{
-  margin:0 20px 0 20px;
-  color: red;
+  margin:20px;
+  font-size: 20px;
+  padding: 20px;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -42,7 +43,8 @@ body {
 }
 .post-image{
   
-  height: 200px;
+  height: 500px;
+  width: 100%;
   padding: 0 20px 0 20px;
 }
 

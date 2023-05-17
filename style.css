@@ -33,13 +33,9 @@ header {
 
 
 header > div > svg{
-<<<<<<< HEAD
-  display: flex;
-=======
 
   display: flex;
   flex-direction: row;
->>>>>>> parent of b51bc59 (Update style.css)
   justify-content: center;
   align-items: center;
   margin: auto;

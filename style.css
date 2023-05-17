@@ -61,7 +61,8 @@ header > div > svg > text {
  }
 
 .destinations {
- max-width: 350px;
+
+ max-width: 370px;
  margin: 0 auto;
  padding: 20px;
  margin-bottom: 100px;
@@ -211,9 +212,7 @@ header > div > svg > text {
     width: 100%;
   }
  
-  .destinations {
-    max-width: 600px;
-    }
+  
   .footer-container{
     background-color: aliceblue;
     display: flex;
@@ -239,7 +238,8 @@ header > div > svg > text {
     right: 50px;
   }
   .destinations {
-    max-width: 1000px;
+    background-color: aquamarine;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 100px;

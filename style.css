@@ -28,15 +28,18 @@ header {
   background-image: url(".//Materials/header2.jpg");
   background-repeat: no-repeat;
 }
-.header-container{
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 300px;
-  height:300px;
+  height: 300px;
   background-color: #f0dac9;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -79,7 +82,7 @@ header {
  flex: 0 0 auto;
  margin-right: 20px;
  scroll-snap-align: center;
- background-color:bisque;
+ background-color:#F4F1E8;
  width: 300px;
  height:410px;
  border-radius: 10px;
@@ -246,21 +249,17 @@ header {
   color: black;
   padding: 20px 20px 0px 20px;
   }
-  .header-container >p{
+  .header-box > p{
     color: black;
     font-weight: 100;
     padding: 0px 20px 40px 20px;
     
   }
-
-.header-container{
-  max-width: 500px;
-  max-height:300px;
-  position: relative;
-  top: 150px;
-  left: 80px;
-  
-  
-}
+  .header-container {
+    align-items: center;
+    position: relative;
+    
+   
+  }
 
  

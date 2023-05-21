@@ -33,13 +33,9 @@ header {
 
 
 header > div > svg{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+ display: flex;
   margin: auto;
-  max-width: 300px;
+  max-width: 300px
   }
 header > div > svg > text {
   font-size: 12px;

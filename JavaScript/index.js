@@ -57,6 +57,7 @@ async function loadMorePosts() {
 getPosts();
 showMoreBtn.addEventListener("click", loadMorePosts);
 
+
 // Search codes here
 search.onkeyup = async function (event) {
   const searchValue = event.target.value.trim().toLowerCase();
@@ -68,9 +69,10 @@ search.onkeyup = async function (event) {
   resultContainer.innerHTML = "";
 
   for (let i = 0; i < filteredPosts.length; i++) {
+    
     const mediaResponse = await fetch(filteredPosts[i]._links["wp:featuredmedia"][0].href);
     const mediaData = await mediaResponse.json();
-    
+
     resultContainer.innerHTML += `
         <div class="destinations">
           <div class="slider">

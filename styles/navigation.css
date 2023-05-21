@@ -14,7 +14,7 @@ html {
       font-family: 'Open Sans', sans-serif;
       font-size: 16px;
       line-height: 1.5;
-      color: #333;
+     
     font-family: 'Poppins', sans-serif;
     color: white;
     
@@ -105,9 +105,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(0, 0, 0);
     border-radius: 0.10em;
     z-index: 99;
+    background-color: black;
 
 }
 
@@ -148,7 +148,8 @@ nav {
     width: 100%;
     display: block;
     height: 60px;
-    background-color: rgba(0, 0, 0, 0.441);
+    background-color: rgba(0, 0, 0, 0.425);
+   
 
 
   }
@@ -160,7 +161,7 @@ nav {
     display: inline;
     margin-left: 10px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 100;
     
   }
   .menu-items {

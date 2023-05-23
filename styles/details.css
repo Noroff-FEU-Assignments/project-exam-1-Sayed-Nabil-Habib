@@ -97,3 +97,6 @@ body {
   cursor: pointer;
 }
  
+label{
+  display: none;
+}

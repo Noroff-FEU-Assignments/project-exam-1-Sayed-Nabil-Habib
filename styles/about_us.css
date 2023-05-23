@@ -15,10 +15,6 @@ body {
 	line-height: 1.5;
 	color: #333;
   font-family: 'Poppins', sans-serif;
-
-
-  
- 
 }
 .container{
   display: flex;
@@ -40,4 +36,7 @@ p{
 }
 h3{
   font-weight: 500;
+}
+label{
+  display: none;
 }

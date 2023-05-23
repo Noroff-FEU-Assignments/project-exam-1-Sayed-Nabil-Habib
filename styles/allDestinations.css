@@ -128,6 +128,9 @@ main{
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+label{
+  display: none;
+}
 @media screen and (min-width: 700px){
   .slider{
     display: flex;

@@ -116,7 +116,6 @@ main{
   transition: 0.5s;
 }
 
-
 .search-container {
   position: relative;
   margin: 20px auto;
@@ -131,7 +130,7 @@ main{
   border-radius: 30px;
   background-color: #f5f5f5;
   color: #555555;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.233);
 }
 
 .search:focus {

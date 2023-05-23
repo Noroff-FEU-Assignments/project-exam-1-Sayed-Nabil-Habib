@@ -66,7 +66,12 @@ header {
   font-weight: 200;
   font-style:italic;
  }
-
+.destinations h2{
+  color: black;
+  font-weight: 200;
+  font-size: 19px;
+  text-transform: uppercase;
+}
  
  .destinations .slider {
 
@@ -188,7 +193,9 @@ header {
   right: 10px;
   color: white;
 }
-
+label{
+  display: none;
+}
 
 
 @media screen and (min-width: 700px){
@@ -261,5 +268,5 @@ header {
     
    
   }
-
+  
  

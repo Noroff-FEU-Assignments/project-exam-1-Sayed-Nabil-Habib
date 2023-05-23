@@ -141,7 +141,11 @@ nav {
     display: block;
     transform: rotate(-45deg);
 }
-
+.current{
+    color: #ffffff; 
+    font-weight: bold; 
+    border-bottom: 2px solid #ffffff;
+  }
 @media screen and (min-width: 700px){
 
   nav{

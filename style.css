@@ -123,6 +123,9 @@ header {
   cursor: pointer;
   
  }
+ .post_date{
+  color: aquamarine;
+ }
  
  .destinations .btn {
   font-size: 12px;

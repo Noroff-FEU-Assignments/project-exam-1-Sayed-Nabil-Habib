@@ -20,6 +20,12 @@ async function getPosts() {
       const mediaResponse = await fetch(data[i]._links["wp:featuredmedia"][0].href);
       const mediaData = await mediaResponse.json();
 
+      const dateWithoutHours = new Date(data[i].date).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+
       resultContainer.innerHTML += `
         <div class="destinations">
           <div class="slider">
@@ -28,6 +34,7 @@ async function getPosts() {
                 <img class="posts-images" src="${mediaData.source_url}" alt="${data[i].title.rendered}">
                 <h5 class="title">${data[i].title.rendered}</h5>
                 <p class="content">${data[i].excerpt.rendered}</p>
+                <p class="post_date">${dateWithoutHours}</p>
                 <h4 class="read-more">Read more</h4>
               </a>
             </div>

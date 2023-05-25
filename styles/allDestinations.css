@@ -152,6 +152,11 @@ main{
 label{
   display: none;
 }
+.title{
+  color: black;
+  margin: auto;
+  font-weight: 200;
+}
 @media screen and (min-width: 700px){
   .slider{
     display: flex;

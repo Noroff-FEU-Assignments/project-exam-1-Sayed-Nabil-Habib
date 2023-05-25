@@ -199,7 +199,26 @@ header {
 label{
   display: none;
 }
-
+.header-text{
+  font-weight: 100;
+  font-style: normal;
+  font-size: 40px;
+  color: black;
+  padding: 20px 20px 0px 20px;
+  }
+  .header-box > p{
+    color: black;
+    font-weight: 100;
+    padding: 0px 20px 40px 20px;
+    
+  }
+  .header-container {
+    align-items: center;
+    position: relative;
+    
+   
+  }
+  
 
 @media screen and (min-width: 700px){
   
@@ -252,24 +271,5 @@ label{
     }
 }
 
-.header-text{
-  font-weight: 100;
-  font-style: normal;
-  font-size: 40px;
-  color: black;
-  padding: 20px 20px 0px 20px;
-  }
-  .header-box > p{
-    color: black;
-    font-weight: 100;
-    padding: 0px 20px 40px 20px;
-    
-  }
-  .header-container {
-    align-items: center;
-    position: relative;
-    
-   
-  }
-  
+
  

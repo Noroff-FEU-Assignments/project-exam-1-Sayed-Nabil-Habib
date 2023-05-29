@@ -1,4 +1,4 @@
-# Your project title
+# Project Exam 1
 
 ![image](./Materials/project-exam-1.png)
 
@@ -10,8 +10,8 @@ A blog site covering traveling destinations.the content was fethced though wordp
 
 ## Built With
 
-- [HTML]
-- [CSS]
+- HTML
+- CSS
 - [JavaScript](https://www.javascript.com/)
 
 ## Getting Started
